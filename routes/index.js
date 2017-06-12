@@ -25,6 +25,10 @@ router.post('/signup', function(req, res, next) {
   });
 });
 
+router.post('/login', passport.authenticate('local'), function(req, res, next) {
+  res.redirect('/itworks');
+});
+
 function checkLoggedIn(req, res,next) {
   if (req.isAuthenticated()) {
     next();

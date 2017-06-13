@@ -4,7 +4,7 @@ var User = require('../models/user');
 var passport = require('passport');
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
+router.get('/', checkLoggedIn, function(req, res, next) {
   res.render('index', { title: 'LadyBird' });
 });
 
@@ -18,7 +18,7 @@ router.post('/signup', function(req, res, next) {
         if (loginError) {
           res.send(loginError);
         } else {
-          res.redirect('/itworks');
+          res.redirect('/');
         }
       });
     }
@@ -26,14 +26,18 @@ router.post('/signup', function(req, res, next) {
 });
 
 router.post('/login', passport.authenticate('local'), function(req, res, next) {
-  res.redirect('/itworks');
+  res.redirect('/');
 });
+
+router.get('/login', function(req, res, next) {
+  res.render('login');
+})
 
 function checkLoggedIn(req, res,next) {
   if (req.isAuthenticated()) {
     next();
   } else {
-    res.redirect('/');
+    res.redirect('/login');
   }
 };
 

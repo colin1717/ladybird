@@ -41,7 +41,7 @@ function checkLoggedIn(req, rex, next) {
 };
 
 /* POST hound */
-router.post('/', function(req, res, next) {
+router.post('/', checkLoggedIn, function(req, res, next) {
   var userId = req.user._id;
   var url = req.body.url;
   var search_term = req.body.search_term;

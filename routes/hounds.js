@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 var Hound = require('../models/hound');
 
-/* GET likes */
+/* GET hounds */
 router.get('/', function(req, res, next){
   Hound.find({}, function(err, hounds){
     if (err) {

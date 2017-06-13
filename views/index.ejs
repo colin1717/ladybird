@@ -3,8 +3,33 @@
   <head>
     <meta charset="utf-8">
     <title>LadyBird</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
   </head>
   <body>
-    <h1>Ladybird login success</h1>
+      <div class='row layout'>
+        <div class="col s4 sidebar">
+          <img class='logo' src="/images/ladybird.svg" alt="LadyBird Logo">
+        </div>
+        <div class="col s8 main-panel">
+          <form class="" action="/hounds" method="post">
+            <div class="input-box">
+              <input type="text" name="url" placeholder="URL">
+              <div class="input-text-row">
+                <img id='triangle-icon' src="/images/triangle.svg" alt="triangle icon">
+                <label for="url">Enter the URL for LadyBird to monitor</label>
+              </div>
+            </div>
+            <div class="input-box-two">
+              <input type="text" name="search_term" placeholder="Scent to follow">
+              <div class="input-text-row">
+                <img id='triangle-icon' src="/images/magnifying_glass.svg" alt="triangle icon">
+                <label for="search_term">Enter the word you want LadyBird to look for</label>
+              </div>
+            </div>
+            <input class='main-page-submit' type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
   </body>
 </html>

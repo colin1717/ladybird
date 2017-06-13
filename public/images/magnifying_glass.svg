@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="29px" viewBox="0 0 24 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>magnifying glass</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="magnifying-glass" transform="translate(1.000000, 1.000000)">
+            <g transform="translate(0.755202, 0.259919)">
+                <ellipse id="Oval" stroke="#FFFFFF" stroke-width="3" cx="8.30419661" cy="9.38045548" rx="7.90888944" ry="8.67650454"></ellipse>
+                <polyline id="Rectangle-2" fill="#FFFFFF" points="12.2586413 16.9723969 14.9272936 14.7662436 22.0928306 25.1981488 19.4241783 27.4043021"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

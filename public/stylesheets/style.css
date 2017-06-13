@@ -1,9 +1,94 @@
+html {
+  height: 100%;
+}
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   text-align: center;
+  height: 100%;
 }
 
 a {
   color: #00B7FF;
+}
+
+.layout{
+  overflow: auto;
+  height: 100%;
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+.sidebar {
+  background-color: black;
+  height: 100%;
+  background-size: cover;
+}
+
+.title {
+  color: green;
+}
+
+.logo {
+  width: 245px;
+  margin-top: 45px;
+}
+
+.main-panel {
+  background-color: #383D41;
+  height: 100%;
+}
+
+.input-box {
+  background-color: #53A92C;
+  margin: 30px 30px;
+  padding: 15px;
+  padding-right: 26px;
+  border-radius: 7px;
+  height: 120px;
+}
+
+.input-box-two {
+  background-color: #2BAA69;
+  margin: 30px 30px;
+  padding: 15px;
+  padding-right: 26px;
+  border-radius: 7px;
+  height: 120px;
+}
+
+.input-text-row {
+  margin-top: 10px;
+  display: flex;
+}
+
+input {
+  background-color: white !important;
+  border-radius: 6px !important;
+  padding-left: 10px !important;
+  margin-bottom: 5px !important;
+}
+
+#triangle-icon {
+  width: auto;
+  height: 28px;
+  margin-left: 2px;
+}
+
+label {
+  color: white !important;
+  font-family: Helvetica !important;
+  font-size: 15pt;
+  margin-left: 25px;
+}
+
+input[type=submit] {
+  border: none;
+  height: 65px !important;
+  width: 120px !important;
+  background-color: #2EC799 !important;
+  color: white;
+  border-radius: 6px;
+  float: right;
+  font-size: 15pt;
+  margin-right: 30px;
 }

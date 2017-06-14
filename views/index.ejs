@@ -5,11 +5,24 @@
     <title>LadyBird</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
     <link rel="stylesheet" href="/stylesheets/style.css">
+    <style>
+    @media (min-width: 992px) {
+      .hamburger {
+        display: none;
+      }
+    }
+    @media (max-width: 992px) {
+      .logo {
+        display: none;
+      }
+    }
+    </style>
   </head>
   <body>
       <div class='row layout'>
         <div class="col s2 l4 sidebar">
           <img class='logo' src="/images/ladybird.svg" alt="LadyBird Logo">
+          <img class='hamburger'src="/images/hamburger.svg" alt="menu">
         </div>
         <div class="col s10 l8 main-panel">
           <form class="" action="/hounds" method="post">

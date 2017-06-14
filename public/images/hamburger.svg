@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="39px" viewBox="0 0 66 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>hamburger</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="71.8192689%" y2="71.3199757%" id="linearGradient-1">
+            <stop stop-color="#8BD457" offset="0%"></stop>
+            <stop stop-color="#2EC798" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="hamburger" fill="url(#linearGradient-1)">
+            <path d="M66,23.01 L66,16.38 L1.02140518e-14,16.38 L0,23.01 L66,23.01 Z M66,30.81 L66,35 C66,37.209139 64.209139,39 62,39 L4,39 C1.790861,39 2.705415e-16,37.209139 0,35 L0,30.81 L66,30.81 Z M66,8.58 L66,4 C66,1.790861 64.209139,3.51840692e-15 62,0 L4,0 L4,0 C1.790861,4.05812251e-16 -2.705415e-16,1.790861 0,4 L0,4 L0,8.58 L66,8.58 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

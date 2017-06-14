@@ -39,6 +39,23 @@ a {
   margin-top: 45px;
 }
 
+.saved-search {
+  color: #53A92C;
+  font-size: 14pt;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+.saved-search-text {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.saved-search-image {
+
+}
+
 .main-panel {
   background-color: #383D41;
   height: 100%;
